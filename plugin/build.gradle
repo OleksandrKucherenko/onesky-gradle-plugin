@@ -30,7 +30,7 @@ dependencies {
     compile "com.github.kittinunf.fuel:fuel:2.2.1"
     compile "commons-codec:commons-codec:1.14"
     compile 'com.google.code.gson:gson:2.8.6'
-    compile 'com.jakewharton.fliptables:fliptables:1.0.2'
+    compile 'com.jakewharton.fliptables:fliptables:1.1.0'
     compile 'joda-time:joda-time:2.10.5'
 
     testCompile 'junit:junit:4.12'
