@@ -33,7 +33,7 @@ dependencies {
     compile 'com.jakewharton.fliptables:fliptables:1.1.0'
     compile 'joda-time:joda-time:2.10.5'
 
-    testCompile 'junit:junit:4.12'
+    testCompile 'junit:junit:4.13.1'
     testCompile "org.assertj:assertj-core:2.9.1"
     testCompile 'com.nhaarman:mockito-kotlin:1.6.0'
 }
