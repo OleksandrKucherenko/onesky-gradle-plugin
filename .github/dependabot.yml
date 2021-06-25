@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.assertj:assertj-core
+    versions:
+    - ">= 3.a, < 4"
+  - dependency-name: joda-time:joda-time
+    versions:
+    - 2.10.9
+  - dependency-name: junit:junit
+    versions:
+    - 4.13.1
+  - dependency-name: commons-codec:commons-codec
+    versions:
+    - "1.15"
